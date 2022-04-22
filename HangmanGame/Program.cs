@@ -15,6 +15,7 @@ namespace HangmanGameConsole
 
             var hangman = new HangmanGame();
             hangman.Run();
+            
 
             Console.ForegroundColor = oldColor;
 
@@ -24,4 +25,6 @@ namespace HangmanGameConsole
             Console.ReadLine();
         }
     }
+   
 }
+
